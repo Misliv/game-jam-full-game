@@ -3614,12 +3614,8 @@ f . . e . e e e e . . . . . e .
 . . . . . . . e e e . . . . . . 
 . . . . . . . e e e . . . . . . 
 `];
-        }
-        return null;
-    })
+    
 
-helpers._registerFactory("animation", function(name: string) {
-        switch(helpers.stringTrim(name)) {
             case "Bird":
             case "anim1":return [img`
 . . . . . . . . . . . f f f . . 
